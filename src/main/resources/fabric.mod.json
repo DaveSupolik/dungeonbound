@@ -12,11 +12,12 @@
 		"sources": ""
 	},
 	"license": "MIT-License",
+	"accessWidener": "dungeonbound.accesswidener",
 	"icon": "assets/dungeonbound/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"cz.daveashh.dungeonbound.DungeonBound"
+			"cz.daveashh.dungeonbound.DungeonsMain"
 		],
 		"fabric-datagen": [
 			"cz.daveashh.dungeonbound.DungeonBoundDataGenerator"

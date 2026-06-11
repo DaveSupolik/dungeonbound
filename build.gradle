@@ -63,6 +63,12 @@ jar {
 	}
 }
 
+loom {
+	// Toto je kritické pro to, aby IDE pochopilo názvy jako ResourceLocation
+	// a DataComponentType místo obfuskovaných názvů.
+	accessWidenerPath = file("src/main/resources/dungeonbound.accesswidener")
+}
+
 // configure the maven publication
 publishing {
 	publications {
