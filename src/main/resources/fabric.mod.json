@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "dungeonbound",
+	"version": "${version}",
+	"name": "DungeonBound",
+	"description": "Complete Minecraft Dungeons redux. Try Dungeons in normal Minecraft and dominate the world!",
+	"authors": [
+		"DaveAshh"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/dungeonbound/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cz.daveashh.dungeonbound.DungeonBound"
+		],
+		"fabric-datagen": [
+			"cz.daveashh.dungeonbound.DungeonBoundDataGenerator"
+		]
+	},
+	"mixins": [
+		"dungeonbound.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
