@@ -1,0 +1,9 @@
+{
+  "tooltip.dungeonbound.power_level": "Power Level: %s",
+  "tooltip.dungeonbound.rarity.common": "Common",
+  "tooltip.dungeonbound.rarity.rare": "Rare",
+  "tooltip.dungeonbound.rarity.unique": "Unique",
+  "tooltip.dungeonbound.talent_slots": "Talent Slots: %s",
+  "tooltip.dungeonbound.attack_reach": "+%s Reach",
+  "tooltip.dungeonbound.artifact": "Artifact"
+}
