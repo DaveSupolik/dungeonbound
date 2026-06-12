@@ -3,7 +3,7 @@
 	"package": "cz.daveashh.dungeonbound.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"MixinPlayerInventory"
 	],
 	"injectors": {
 		"defaultRequire": 1
