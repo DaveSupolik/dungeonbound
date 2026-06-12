@@ -19,6 +19,9 @@
 		"main": [
 			"cz.daveashh.dungeonbound.DungeonsMain"
 		],
+		"client": [
+			"cz.daveashh.dungeonbound.DungeonsClient"
+		],
 		"fabric-datagen": [
 			"cz.daveashh.dungeonbound.DungeonBoundDataGenerator"
 		]
